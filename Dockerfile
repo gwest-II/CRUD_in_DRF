@@ -2,7 +2,7 @@ FROM python:3.8
 
 WORKDIR /CRUD_in_DRF
 
-COPY ./CRUD_in_DRF /CRUD_in_DRF
+COPY . /CRUD_in_DRF
 
 run pip install -r /CRUD_in_DRF/requirements.txt
 
