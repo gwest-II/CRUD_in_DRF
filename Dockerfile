@@ -7,7 +7,7 @@ COPY . /CRUD_in_DRF
 run pip install -r /CRUD_in_DRF/requirements.txt
 
 ENV SECRET_KEY django-insecure-nw^y+m^wmxza1asgk+)!ua2qx9)g+#v=6%76-9i8i(6eqiw94j
-ENV ALLOWED_HOSTS localhost
+ENV ALLOWED_HOSTS 127.0.0.1
 ENV DEBUG 1
 
 RUN python manage.py migrate

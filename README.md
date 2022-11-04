@@ -1,7 +1,7 @@
-# _**Сборка образа:**_
+# _**Запуск контейнера:**_
 
-`docker build ./ --tag stockproducts:0.0.1
+`docker compose up -d
 `
-# _Запуск контейнера:_
+# _Локальный хост:_
 
-`docker run --name my_stockproducts -d -p 8000:8000 stockproducts:0.0.1`
+`http://127.0.0.1:8000/api/v1/`
